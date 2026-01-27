@@ -1,0 +1,119 @@
+{
+  "brand_name": "IntelligenceAI",
+  "display_name": "Intelligence AI - AI Research Threads",
+  "enabled": true,
+  "approval_mode": "manual",
+
+  "target_audience": {
+    "age_range": "22-45",
+    "primary_interests": ["machine_learning", "ai_research", "deep_learning", "nlp", "computer_vision"],
+    "expertise_level": "intermediate_to_advanced",
+    "locations": ["global", "tech_hubs"]
+  },
+
+  "posting_schedule": {
+    "timezone": "America/Los_Angeles",
+    "frequency": {
+      "twitter": {
+        "times": ["08:00", "12:00", "18:00"],
+        "post_count": 3,
+        "notes": "Peak engagement times: morning commute, lunch break, evening"
+      },
+      "linkedin": {
+        "times": ["09:00", "14:00"],
+        "post_count": 2,
+        "notes": "LinkedIn peak: mid-morning and early afternoon (professional hours)"
+      }
+    }
+  },
+
+  "content_pillars": {
+    "paper_threads": {
+      "weight": 0.80,
+      "focus": ["breakthrough_papers", "sota_results", "novel_architectures", "scaling_laws"],
+      "format": "5-8 tweet thread with key findings"
+    },
+    "lab_news": {
+      "weight": 0.15,
+      "sources": ["anthropic", "openai", "deepmind", "meta_ai", "google_research"],
+      "format": "Summarized announcements with implications"
+    },
+    "community_highlights": {
+      "weight": 0.05,
+      "sources": ["r/MachineLearning", "r/LocalLLaMA", "huggingface"],
+      "format": "Trending discussions and implementations"
+    }
+  },
+
+  "content_mix": {
+    "trending_priority": true,
+    "max_paper_age_days": 7,
+    "prefer_high_citation_papers": true,
+    "notes": "Focus on papers with real-world implications"
+  },
+
+  "platforms": {
+    "twitter": {
+      "enabled": true,
+      "handle": "@intelligence_ai",
+      "max_chars": 280,
+      "thread_delimiter": "|||",
+      "hashtag_strategy": "1-2 max, only for discoverability",
+      "emoji_usage": "minimal"
+    },
+    "linkedin": {
+      "enabled": false,
+      "handle": "your-linkedin-url",
+      "max_chars": 3000,
+      "post_format": "text",
+      "hashtag_strategy": "3-5 max for discoverability",
+      "notes": "Threads reformatted as multi-paragraph posts (no ||| delimiter)"
+    },
+    "instagram": {
+      "enabled": false,
+      "handle": "intelligence_ai",
+      "format": "carousel",
+      "aspect_ratio": "1:1",
+      "notes": "Paper figure carousels - future feature"
+    }
+  },
+
+  "quality_filters": {
+    "min_paper_quality": "peer_reviewed_or_major_lab",
+    "avoid_topics": ["ai_hype", "unsubstantiated_claims", "politics"],
+    "tone_boundaries": {
+      "technical_accuracy": "always",
+      "hype": "never",
+      "speculation": "clearly_labeled"
+    }
+  },
+
+  "brand_voice": {
+    "personality": "Knowledgeable AI researcher who makes complex papers accessible",
+    "characteristics": [
+      "Technically accurate but accessible",
+      "Highlights practical implications",
+      "Acknowledges limitations",
+      "Links to original sources",
+      "Respects researcher attribution"
+    ]
+  },
+
+  "processing": {
+    "gemini_model": "gemini-2.0-flash",
+    "max_papers_per_run": 12,
+    "arxiv_delay_seconds": 3,
+    "reddit_subreddits": ["MachineLearning", "LocalLLaMA"],
+    "queue_buffer_days": 4,
+    "min_queue_size": 6,
+    "cost_per_thread_usd": 0.0006,
+    "monthly_budget_usd": 5.0
+  },
+
+  "performance_targets": {
+    "followers_30d": 1000,
+    "followers_90d": 5000,
+    "engagement_rate_target": 0.02,
+    "notes": "Build credibility through consistent quality threads"
+  }
+}

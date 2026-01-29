@@ -26,7 +26,7 @@ I built a bot that:
 
 ---
 
-## 🎯 The Personal Problem I Solved
+## 🎯 The Personal Problem it is solving:
 
 I wanted to stay current with AI research, but:
 - arXiv publishes 100+ ML papers daily
@@ -34,7 +34,7 @@ I wanted to stay current with AI research, but:
 - Academic abstracts bury the actual impact
 - No time to filter what's worth deep-diving
 
-**Solution:** A bot that curates, summarizes, and points me to papers I should actually read.
+**Solution:** A bot that curates, summarizes, and points me to papers,new releases in AI,and the latest relevant news I should actually read.
 
 ---
 
